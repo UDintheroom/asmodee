@@ -363,7 +363,7 @@
 .studio-slide-wrap{
 overflow: hidden;
 margin: 0 -20px;
-padding: 0 0 20px 20px;
+padding: 0 0 35px 20px;
   .studios-slide {
     width: 90%;
     height: 89.5vw;
@@ -487,8 +487,7 @@ padding: 0 0 20px 20px;
       grid-template-columns: 9vw 16vw 1fr;
       margin-bottom: 17vw;
       @media screen and (min-width: $breakpoint-xl) {
-        // 여기 세부 수정
-        grid-template-columns: 3vw 4vw 1fr;
+        grid-template-columns: 4.2vw 4.7vw 1fr;
         margin-bottom: 106px;
       }
       .subway-num{

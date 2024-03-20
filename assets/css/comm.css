@@ -288,7 +288,7 @@ legend {
   line-height: normal;
   color: #00C1C1;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .title {
     font-size: 6.9vw;
     margin: 12vw 0 5.1vw 0;
@@ -297,7 +297,7 @@ legend {
 .title.upcoming {
   margin-top: 15vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .title.upcoming {
     margin: 14.7vw 0 0.1vw 0;
   }
@@ -305,7 +305,7 @@ legend {
     display: none;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .title.news {
     margin: 14.7vw 0 0.1vw 0;
   }
@@ -452,7 +452,7 @@ legend {
     transform: translateX(50%);
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .btn-more-wrap .btn-more {
     font-size: 1.2vw;
     padding: 1.1vw 1.8vw;
@@ -475,6 +475,7 @@ legend {
   background-image: url(../../images/logo.png);
   background-size: cover;
   text-indent: -9999px;
+  margin-bottom: 20px;
 }
 #footer .ft-wrap .ft-txt-inner {
   height: 300px;
@@ -487,7 +488,7 @@ legend {
   font-size: 3vw;
   line-height: normal;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   #footer .ft-wrap .ft-txt-inner .info-wrap, #footer .ft-wrap .ft-txt-inner .copyright {
     font-size: 1.1vw;
   }
@@ -508,7 +509,7 @@ legend {
   grid-template-columns: repeat(5, 13vw);
   margin-top: 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   #footer .ft-wrap .sns-wrap .list-sns {
     grid-template-columns: repeat(5, 64px);
   }
@@ -518,7 +519,7 @@ legend {
   height: 10vw;
   overflow: hidden;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   #footer .ft-wrap .sns-wrap .list-sns li {
     width: 43px;
     height: 43px;
@@ -561,7 +562,7 @@ legend {
   letter-spacing: -3px;
   margin: 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-slide-wrap .slogan {
     font-size: 6.9vw;
     bottom: 3vw;
@@ -587,10 +588,10 @@ legend {
   height: 148.6vw;
   filter: brightness(0.8);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-slide .first-slide .main-game {
     width: 100%;
-    height: 68vh;
+    height: 65vh;
     background-size: cover;
   }
 }
@@ -600,7 +601,7 @@ legend {
   display: flex;
   word-break: keep-all;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-txt {
     font-size: 1.8vw;
   }
@@ -611,7 +612,7 @@ legend {
 .main-txt.txt1 {
   margin-top: 10vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-txt.txt1 {
     margin-top: 6vw;
   }
@@ -621,7 +622,7 @@ legend {
   font-weight: 600;
   color: #00C1C1;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-txt.txt2 {
     margin-top: 0;
   }
@@ -637,7 +638,7 @@ legend {
   margin: 0 -20px;
   padding: 0 0 45px 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .upcoming-slide-wrap {
     padding: 5vw 0 12px 20px;
   }
@@ -648,7 +649,7 @@ legend {
   margin: 0;
   overflow: visible;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .upcoming-slide-wrap .upcoming-slide {
     width: 22%;
     height: 24vw;
@@ -661,7 +662,7 @@ legend {
   position: absolute;
   bottom: -40px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .upcoming-slide-wrap .swiper-pagination {
     display: none;
   }
@@ -697,7 +698,7 @@ legend {
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .card:hover {
     transform: translateY(-10%);
   }
@@ -709,7 +710,7 @@ legend {
   padding: 5.2vw;
   height: 100%;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .card .card-inner {
     padding: 1.5vw 1.3vw;
   }
@@ -718,7 +719,7 @@ legend {
   font-weight: 700;
   font-size: 4.5vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .card .card-inner .card-main .card-hd {
     font-size: 1.233vw;
   }
@@ -727,7 +728,7 @@ legend {
   font-size: 4vw;
   color: #444;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .card .card-inner .card-main .card-txt {
     font-size: 1.1vw;
   }
@@ -743,7 +744,7 @@ legend {
   border-radius: 10vw;
   margin-right: 0.8vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .card .card-inner .card-ft .hash {
     font-size: 0.8vw;
     padding: 0.4vw 0.9vw;
@@ -760,7 +761,7 @@ legend {
   margin-bottom: 15px;
   padding-top: 57vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games {
     height: 38vw;
     padding: 0;
@@ -773,7 +774,7 @@ legend {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/mobile/game_ttr.jpg");
   background-size: cover;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games.ttri {
     background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/main_2t2r.png") center center/cover no-repeat;
   }
@@ -785,7 +786,7 @@ legend {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/mobile/game_7won.jpg");
   background-size: cover;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games.seve {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/main_7wonders.png");
     background-size: cover;
@@ -799,7 +800,7 @@ legend {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/mobile/game_splen.jpg");
   background-size: cover;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games.sple {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/main_3splendor.png");
     background-size: cover;
@@ -813,7 +814,7 @@ legend {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/mobile/game_dixit.jpg");
   background-size: cover;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games.dixi {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/main_1dixit.png");
     background-size: cover;
@@ -827,7 +828,7 @@ legend {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/mobile/game_dob.jpg");
   background-size: cover;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games.dobb {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/main_4dobble.png");
     background-size: cover;
@@ -846,7 +847,7 @@ legend {
   background-repeat: no-repeat;
   background-position: center center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games .game-logo {
     width: 27vw;
     height: 167px;
@@ -870,7 +871,7 @@ legend {
   height: 35vw;
   background-image: url(../../images/logo_dobble.png);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games .game-logo.dobb-logo {
     width: 12vw;
     height: 14vw;
@@ -879,7 +880,7 @@ legend {
 .our-games .our-games-txt {
   text-align: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games .our-games-txt {
     text-align: left;
   }
@@ -889,7 +890,7 @@ legend {
   font-weight: 800;
   color: #fff;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games .our-games-txt span {
     font-size: 1.8vw;
   }
@@ -901,7 +902,7 @@ legend {
   color: #fff;
   line-height: normal;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .our-games .our-games-txt p {
     font-size: 1.2vw;
     letter-spacing: normal;
@@ -914,7 +915,7 @@ legend {
   margin: 0 -20px;
   padding: 0 0 45px 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .news-slide-wrap {
     padding: 5vw 0 12px 20px;
   }
@@ -925,7 +926,7 @@ legend {
   margin: 0;
   overflow: visible;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .news-slide-wrap .news-slide {
     width: 25%;
     height: 100%;
@@ -938,7 +939,7 @@ legend {
   position: absolute;
   bottom: -40px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .news-slide-wrap .news-slide .swiper-pagination {
     display: none;
   }
@@ -966,7 +967,7 @@ legend {
 .news-slide-wrap .news-slide .third-slide:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .news-slide-wrap .news-slide .third-slide:hover {
     transform: translateY(-10%);
   }
@@ -991,7 +992,7 @@ legend {
   color: #fff;
   background: #00C1C1;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .news-slide-wrap .news-slide .third-slide a p {
     font-size: 1.1vw;
     padding: 0.5vw 1.2vw;
@@ -1004,7 +1005,7 @@ legend {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .sec-g .download {
     flex-direction: row;
   }
@@ -1019,12 +1020,12 @@ legend {
 .sec-g .download a .files-img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .sec-g .download a .files-img:hover {
     transform: translateY(-10%);
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .sec-g .download a .files-img {
     width: 31.2vw;
     height: 33.2vw;
@@ -1071,7 +1072,7 @@ legend {
   font-weight: 800;
   letter-spacing: 4px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .sec-g .download a .files-img p {
     font-size: 36px;
   }
@@ -1094,7 +1095,7 @@ legend {
   width: 100%;
   gap: 35px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .cs-center .list-cs {
     flex-wrap: nowrap;
   }
@@ -1135,7 +1136,7 @@ legend {
   font-weight: 600;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .cs-center .list-cs li a p {
     font-size: 28px;
   }
@@ -1146,7 +1147,7 @@ legend {
   position: relative;
   margin: -79px -20px 0 -20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-banner-wrap {
     height: 68vh;
     background-size: cover;
@@ -1165,7 +1166,7 @@ legend {
   left: 0;
   color: #00C1C1;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-banner-wrap .main-txt-wrap {
     bottom: 4.1vw;
   }
@@ -1178,7 +1179,7 @@ legend {
   letter-spacing: -1px;
   margin-left: 20px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .main-banner-wrap .main-txt-wrap .main-txt {
     font-size: 7vw;
   }
@@ -1199,7 +1200,7 @@ legend {
   font-size: 3.5vw;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-txt {
     width: 70%;
     font-size: 1.245vw;
@@ -1208,7 +1209,7 @@ legend {
 .who .who-txt.who-second {
   margin: 15px 0 50px 0;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-txt.who-second {
     margin-top: 1.2vw;
   }
@@ -1219,7 +1220,7 @@ legend {
   grid-template-columns: 1fr 1fr;
   gap: 2vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-icons {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -1236,7 +1237,7 @@ legend {
 .who .who-icons .num {
   font-size: 11.8vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-icons .num {
     font-size: 6.999vw;
   }
@@ -1244,7 +1245,7 @@ legend {
 .who .who-icons .plus {
   font-size: 5vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-icons .plus {
     font-size: 4vw;
   }
@@ -1254,7 +1255,7 @@ legend {
   font-weight: 800;
   font-size: 3.4vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .who .who-icons .sub-txt {
     font-size: 1.245vw;
   }
@@ -1275,7 +1276,7 @@ legend {
   transform: skewX(-12deg);
   margin: 23.3vw 5.5vw 0 0.8vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .bt-slide.bt1 .rolling-list ul li {
     width: 16vw;
     height: 19vw;
@@ -1315,7 +1316,7 @@ legend {
 .bt-slide.bt1 .rolling-list ul li:nth-child(even) {
   margin: 33vw 5.5vw 0 -3vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .bt-slide.bt1 .rolling-list ul li:nth-child(even) {
     margin: 2.7vw 0.5vw 0 0.5vw;
   }
@@ -1330,7 +1331,7 @@ legend {
   transform: skewX(-12deg);
   margin: 23.3vw 5.5vw 0 0.8vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .bt-slide.bt2 .rolling-list ul li {
     width: 16vw;
     height: 19vw;
@@ -1370,7 +1371,7 @@ legend {
 .bt-slide.bt2 .rolling-list ul li:nth-child(even) {
   margin: 33vw 5.5vw 0 -3vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .bt-slide.bt2 .rolling-list ul li:nth-child(even) {
     margin: 2.7vw 0.5vw 0 0.5vw;
   }
@@ -1381,7 +1382,7 @@ legend {
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .world .title .world-enter {
     display: none;
   }
@@ -1390,7 +1391,7 @@ legend {
   font-size: 3.5vw;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .world .world-txt {
     font-size: 1.245vw;
   }
@@ -1403,13 +1404,13 @@ legend {
   background-repeat: no-repeat;
   margin: 12.3vw 0 4.7vw 0;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .world .worldmap-wrap .worldmap-img {
     width: 90%;
     margin: 9vw auto 0.6vw auto;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .world .worldmap-wrap .worldmap-info-wrap {
     display: flex;
     justify-content: flex-end;
@@ -1419,20 +1420,20 @@ legend {
 .world .worldmap-wrap .worldmap-info {
   font-size: 3.7vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .world .worldmap-wrap .worldmap-info {
     font-size: 1.245vw;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap {
     display: flex;
     flex-direction: row;
     gap: 15px;
   }
 }
-@media screen and (min-width: 1280px) and (min-width: 1280px) {
+@media screen and (min-width: 1024px) and (min-width: 1024px) {
   .pf-card-wrap {
     width: 100%;
     gap: 25px;
@@ -1450,7 +1451,7 @@ legend {
   margin-bottom: 4vw;
   padding: 6vw 4.7vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap .pf-card {
     width: 33.3vw;
     height: 33vw;
@@ -1464,7 +1465,7 @@ legend {
   background-repeat: no-repeat;
   background-position: center center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap .pf-card .pf-img {
     width: 20vw;
     height: 18vw;
@@ -1485,7 +1486,7 @@ legend {
   height: 1px;
   margin: 4vw 0;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap .pf-line {
     margin: 2.5vw 0;
   }
@@ -1495,7 +1496,7 @@ legend {
   font-weight: 900;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap .pf-txt-wrap .pf-tit {
     font-size: 1.65vw;
   }
@@ -1506,7 +1507,7 @@ legend {
   color: #444;
   margin-top: 1vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .pf-card-wrap .pf-txt-wrap .pf-txt {
     font-size: 1.25vw;
     margin-top: 1.7vw;
@@ -1516,7 +1517,7 @@ legend {
 .studio-slide-wrap {
   overflow: hidden;
   margin: 0 -20px;
-  padding: 0 0 20px 20px;
+  padding: 0 0 35px 20px;
 }
 .studio-slide-wrap .studios-slide {
   width: 90%;
@@ -1524,7 +1525,7 @@ legend {
   margin: 0;
   overflow: visible;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .studio-slide-wrap .studios-slide {
     width: 22%;
     height: 24vw;
@@ -1537,7 +1538,7 @@ legend {
   position: absolute;
   bottom: -40px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .studio-slide-wrap .studios-slide .swiper-pagination {
     display: none;
   }
@@ -1579,7 +1580,7 @@ legend {
   padding: 5.2vw;
   height: 100%;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .st-card .card-inner {
     padding: 1.5vw 1.3vw;
   }
@@ -1588,7 +1589,7 @@ legend {
   font-weight: 700;
   font-size: 4.5vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .st-card .card-inner .card-tit {
     font-size: 1.233vw;
   }
@@ -1604,19 +1605,19 @@ legend {
   border-radius: 10vw;
   margin-right: 0.8vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .st-card .card-inner .card-ft .hash {
     font-size: 0.9vw;
     padding: 0.4vw 0.9vw;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .map {
     margin-bottom: 48px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .loca-address, .location .loca-call, .location .loca-subway {
     display: grid;
     grid-template-columns: 20% 1fr;
@@ -1627,7 +1628,7 @@ legend {
   font-size: 4.6vw;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .loca-tit {
     font-size: 1.8vw;
   }
@@ -1635,7 +1636,7 @@ legend {
 .location .loca-txt {
   font-size: 3.6vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .loca-txt {
     font-size: 1.3vw;
   }
@@ -1651,9 +1652,9 @@ legend {
   grid-template-columns: 9vw 16vw 1fr;
   margin-bottom: 17vw;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .subway-side-wrap .subway-name {
-    grid-template-columns: 3vw 4vw 1fr;
+    grid-template-columns: 4.2vw 4.7vw 1fr;
     margin-bottom: 106px;
   }
 }
@@ -1668,7 +1669,7 @@ legend {
   border-radius: 100%;
   text-align: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .subway-side-wrap .subway-name .subway-num {
     font-size: 24px;
     width: 30px;
@@ -1681,7 +1682,7 @@ legend {
   font-weight: 600;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .subway-side-wrap .subway-name .subway-line {
     font-size: 16px;
   }
@@ -1690,7 +1691,7 @@ legend {
   font-size: 3.6vw;
   color: #333;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .location .subway-side-wrap .subway-name .loca-txt-more {
     font-size: 16px;
   }
