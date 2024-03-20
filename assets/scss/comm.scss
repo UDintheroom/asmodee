@@ -109,15 +109,27 @@
     transition: left 0.2s;
     .depth1{
       margin: 0 20px;
+      & > li {
+        margin: 20px 0;
+      }
       a{
+        display: block;
         color: $w;
         font-size: 30px;
         font-weight: 900;
         font-style: italic;
       }
       .depth2{
+        display: none;
+        & > li {
+          margin: 30px 0;
+        }
+        padding: 30px 0;
+        margin: 0 -20px;
+        background: $bg;
         a{
-          // color: $primary;
+          margin: 0 20px;
+          color: $primary;
           font-size: 24px;
           font-weight: 700;
         }

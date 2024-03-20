@@ -354,13 +354,28 @@ legend {
 #header #gnb .depth1 {
   margin: 0 20px;
 }
+#header #gnb .depth1 > li {
+  margin: 20px 0;
+}
 #header #gnb .depth1 a {
+  display: block;
   color: #fff;
   font-size: 30px;
   font-weight: 900;
   font-style: italic;
 }
+#header #gnb .depth1 .depth2 {
+  display: none;
+  padding: 30px 0;
+  margin: 0 -20px;
+  background: #B2ECEC;
+}
+#header #gnb .depth1 .depth2 > li {
+  margin: 30px 0;
+}
 #header #gnb .depth1 .depth2 a {
+  margin: 0 20px;
+  color: #00C1C1;
   font-size: 24px;
   font-weight: 700;
 }
@@ -1266,10 +1281,11 @@ legend {
   overflow: hidden;
   margin: 6vw -20px 0 -20px;
 }
-.bt-slide.bt1 .rolling-list ul {
+.bt-slide .rolling-list {
   display: flex;
+  flex-direction: row;
 }
-.bt-slide.bt1 .rolling-list ul li {
+.bt-slide.bt1 .rolling-img {
   width: 52.5vw;
   height: 53.2vw;
   border-radius: 8px;
@@ -1277,54 +1293,55 @@ legend {
   margin: 23.3vw 5.5vw 0 0.8vw;
 }
 @media screen and (min-width: 1024px) {
-  .bt-slide.bt1 .rolling-list ul li {
+  .bt-slide.bt1 .rolling-img {
     width: 16vw;
     height: 19vw;
     margin: 5.4vw 1vw 0 0;
   }
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(1) {
+.bt-slide.bt1 .rolling-img:nth-child(1) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_festa2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(2) {
+.bt-slide.bt1 .rolling-img:nth-child(2) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_a2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(3) {
+.bt-slide.bt1 .rolling-img:nth-child(3) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_festa1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(4) {
+.bt-slide.bt1 .rolling-img:nth-child(4) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_festa3.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(5) {
+.bt-slide.bt1 .rolling-img:nth-child(5) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_a1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(6) {
+.bt-slide.bt1 .rolling-img:nth-child(6) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/c_festa4.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt1 .rolling-list ul li:nth-child(even) {
+.bt-slide.bt1 .rolling-img:nth-child(even) {
   margin: 33vw 5.5vw 0 -3vw;
 }
 @media screen and (min-width: 1024px) {
-  .bt-slide.bt1 .rolling-list ul li:nth-child(even) {
+  .bt-slide.bt1 .rolling-img:nth-child(even) {
     margin: 2.7vw 0.5vw 0 0.5vw;
   }
 }
-.bt-slide.bt2 .rolling-list ul {
+.bt-slide.bt2 .rolling-list {
   display: flex;
+  flex-direction: row;
 }
-.bt-slide.bt2 .rolling-list ul li {
+.bt-slide.bt2 .rolling-img {
   width: 52.5vw;
   height: 53.2vw;
   border-radius: 8px;
@@ -1332,51 +1349,81 @@ legend {
   margin: 23.3vw 5.5vw 0 0.8vw;
 }
 @media screen and (min-width: 1024px) {
-  .bt-slide.bt2 .rolling-list ul li {
+  .bt-slide.bt2 .rolling-img {
     width: 16vw;
     height: 19vw;
     margin: 5.4vw 1vw 0 0;
   }
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(1) {
+.bt-slide.bt2 .rolling-img:nth-child(1) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_caesar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(2) {
+.bt-slide.bt2 .rolling-img:nth-child(2) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_jykel01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(3) {
+.bt-slide.bt2 .rolling-img:nth-child(3) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_four.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(4) {
+.bt-slide.bt2 .rolling-img:nth-child(4) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_jykel02.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(5) {
+.bt-slide.bt2 .rolling-img:nth-child(5) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_rainbow.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(6) {
+.bt-slide.bt2 .rolling-img:nth-child(6) {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bb_jykel03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bt-slide.bt2 .rolling-list ul li:nth-child(even) {
+.bt-slide.bt2 .rolling-img:nth-child(even) {
   margin: 33vw 5.5vw 0 -3vw;
 }
 @media screen and (min-width: 1024px) {
-  .bt-slide.bt2 .rolling-list ul li:nth-child(even) {
+  .bt-slide.bt2 .rolling-img:nth-child(even) {
     margin: 2.7vw 0.5vw 0 0.5vw;
   }
 }
 
+.rolling-list.original {
+  animation: rollingleft1 33s linear infinite;
+}
+
+.rolling-list.clone {
+  animation: rollingleft2 33s linear infinite;
+}
+
+@keyframes rollingleft1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes rollingleft2 {
+  0% {
+    transition: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
 .world {
   display: flex;
   flex-direction: column;
