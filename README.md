@@ -14,6 +14,6 @@
 
 
 ### ⚙ 기술 스택
-- 디자인 : Figma, Adobe Photoshop, Adobe Illustrator
-- 웹 : HTML, CSS(SCSS), JS(JQ)
-- 라이브러리 : Swiper.js, AOS, Googlemap API
+- 디자인: Figma, Adobe Photoshop, Adobe Illustrator
+- 웹: HTML, CSS(SCSS), JS(JQ)
+- 라이브러리: Swiper.js, AOS, Googlemap API
